@@ -47,11 +47,22 @@ fun count() {
     }
 }
 fun test() {
-    TODO("Not yet implemented")
+    println("Why do we use methods?")
+    println("1. To repeat a statement multiple times.")
+    println("2. To decompose a program into several small subroutines.")
+    println("3. To determine the execution time of a program.")
+    println("4. To interrupt the execution of a program.")
+
+    //  while (scanner.nextInt() != 2) println("Please, try again.")
+    var answer = readln().toInt()
+    while (answer != 2 ) {
+        println("Please, try again.")
+        answer = readln().toInt()
+    }
 }
 
 fun end() {
-    println("Completed, have a nice day!")
+    println("Congratulations, have a nice day!")
 }
 
 /*
